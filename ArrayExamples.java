@@ -14,10 +14,10 @@ public class ArrayExamples {
       System.out.println(elem);
     }
 
-    int[][] matrix = new int[4][];
-    for (int i = 0; i < matrix.length; i++) {
-      matrix[i] = new int[8];
-    }
+    int[][] matrix = new int[4][8];
+    // for (int i = 0; i < matrix.length; i++) {
+    //   matrix[i] = new int[8];
+    // }
 
     int[] array2 = new int[5];
     array2[0] = 10;
